@@ -1,0 +1,12 @@
+node_modules/
+scripts/
+templates/
+tmp/
+.editorconfig
+.prettierrc
+.svg*
+.travis.yml
+CONTRIBUTING.md
+index.html
+tsconfig.json
+tslint.json

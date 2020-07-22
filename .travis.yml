@@ -1,0 +1,10 @@
+sudo: true
+language: node_js
+node_js:
+  - "14"
+install:
+  - npm install
+script:
+  - npm run lint:source
+  - npm run lint:names
+  - npm run lint:all-svg

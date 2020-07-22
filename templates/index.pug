@@ -1,0 +1,234 @@
+doctype html
+html(data-ng-app="app" dir="rtl" lang="fa")
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title #{title}
+    link(rel='shortcut icon', type='image/png', href='https://cdn.jsdelivr.net/gh/aasaam/information/logo/icons/favicon-32.png')
+    link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma-rtl.min.css')
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@aasaam/noto-font/dist/font-face.min.css")
+    link(rel='stylesheet', href='./font/font-face.css')
+    style.
+      body, input, button {
+        font-family: "aasaam-Noto", sans-serif;
+      }
+  body
+    .container-fluid
+      nav.navbar.is-dark(role='navigation', aria-label='main navigation')
+        .container
+          .navbar-end
+            .navbar-item
+              .buttons
+                a.button.is-primary(href="https://github.com/aasaam/brand-icons") گیت‌هاب
+
+      section.hero.is-success.is-bold
+        .hero-body
+          .container
+            h1.title=title
+            h2.subtitle متشکل شده از {{ number }} عدد آیکون.
+            ul
+              li
+                | حجم فایل TTF:
+                |
+                span(dir="ltr") {{ ttfSize }}
+              li
+                | حجم فایل WOFF:
+                |
+                span(dir="ltr") {{ woffSize }}
+              li
+                | حجم فایل WOFF2:
+                |
+                span(dir="ltr") {{ woff2Size }}
+
+    br
+    br
+    br
+
+    .container
+      .content
+        .px-3
+          h1 این پروژه چیست؟
+          p این پروژه متشکل شده از تعداد زیادی آیکون از مخزن خوب
+            |
+            |
+            a(href="https://github.com/simple-icons/simple-icons") Simple icon
+            |
+            | و همچنین تعدادی آیکون از لوگو،‌ آرم، نشان از سازمان‌ها، نهادها و ... که در ایران کاربرد دارند.
+          h1 چجوری از این پروژه استفاده کنم؟
+          p
+            | میتونید از این فونت در سیستم عامل خود و یا نرم‌افزار تحت وب استفاده کنید.
+            br
+            | یا حتی میتونید مستقیم از svg ها استفاده کنید.
+
+          h2 توی سیستم عامل؟
+          p
+            | آخرین نسخه
+            |
+            a(href="https://raw.githubusercontent.com/aasaam/brand-icons/master/font/aasaamBrandIcons.ttf") فرمت TTF
+            |
+            | را دانلود کنید و در سیستم عامل خود نصب کنید..
+          p
+            | و در برنامه‌ای مثل ورد یا هر نرم‌افزار دیگه‌ای که امکان انتخاب فونت رو دارید فونت
+            |
+            code(dir="ltr") aasaamBrandIcons
+            |
+            | رو انتخاب کنید و عنوان لوگو را تایپ کنید. مثلا تایپ کنید
+            |
+            code(dir="ltr") ir_aasaam
+            |
+            | و بعدش لوگوی مورد نظرتون ظاهر میشه.
+
+
+          h2 توی پروژه وب چی؟
+          p
+            | میتونید از سی دی ان استفاده کنید و بزارید داخل کد اچ تی ام ال:
+            pre(dir="ltr" style="direction: ltr; text-align: left;") &lt;link href=&quot;https://cdn.jsdelivr.net/gh/aasaam/brand-icons/font/font-face.min.css&quot;&gt;
+          p
+            | یا میتونید از ان پی ام استفاده کنید:
+            pre(dir="ltr" style="direction: ltr; text-align: left;") npm install @aasaam/brand-icons
+          p
+            | بعدش کافیه که توی اچ تی ام ال کد نمونه رو وارد کنید:
+            pre(dir="ltr" style="direction: ltr; text-align: left;").
+              &lt;!-- then use on your page --&gt;
+              &lt;i class=&quot;abi&quot;&gt;ir_aasaam&lt;/i&gt;
+          h3
+          p
+            | اگه نخوام کل فونت رو لود کنم چی؟
+            pre(dir="ltr" style="direction: ltr; text-align: left;").
+              &lt;p&gt;
+                &lt;img src=&quot;https://cdn.jsdelivr.net/gh/aasaam/brand-icons/svg/ir_aasaam.svg&quot; alt=&quot;aasaam&quot; /&gt;
+              &lt;/p&gt;
+          h2 نام گذاری چجوریه؟
+          p
+            | آیکون هایی که به عبارت
+            |
+            code(dir="ltr") ir_
+            |
+            | شروع میشه مربوط به ایران هست، آیکون هایی که با
+            |
+            code(dir="ltr") si_
+            |
+            | مربوط به پروژه
+            |
+            a(href="https://github.com/simple-icons/simple-icons") Simple Icons
+            |
+            | و سایر آیکون ها با پیشوند
+            |
+            code(dir="ltr") wi_
+            | هستند.
+
+          h2 چجوری آیکون جدید درست کنم؟ یا حتی قبلی رو آپدیت کنم؟
+          p
+            | برید توی بخش
+            |
+            a(href="https://github.com/aasaam/brand-icons/blob/master/CONTRIBUTING.md") راهنمای مشارکت
+            |
+            | در گیت‌هاب که توضیحات رو بخونید و آرم یا نشان خودتون رو به این پروژه اضافه کنید.
+
+          h2 چرا آیکون سازمان یا شرکت من اینجاست؟ چجوری پاکش کنم؟ چطوری اصلاحش کنم؟
+          p
+            | اگه نشان شما مشکل داره و یا
+            | اگه فکر می‌کنید قوانین نام تجاری شما نقض شده میتونید
+            |
+            a(href="https://github.com/aasaam/brand-icons/issues") یه ایشو باز کنید
+            |
+            | درخواست بدید که نشان شما تغییر کنه یا حذف بشه.
+
+
+    br
+    br
+    br
+
+
+    .container
+      .card
+        .card-header
+          .card-header-title
+            a(href="#list" name="list") فهرست آیکون‌ها
+        .card-content
+          form
+            br
+            p میتونید سرچ کنید،‌ اندازه و رنگ رو تست کنید ببینید چجوری میشه.
+            br
+            .columns
+              .column
+                .field
+                  label.label جستجو
+                  .control
+                    input.input(data-ng-model="f" type='text', placeholder='دنبال آیکون خاصی میگردی؟')
+              .column
+                .field
+                  label.label اندازه پیش نمایش
+                  .control
+                    input.input(data-ng-model="s" type='number' min="1" max="12"  placeholder='اندازه پیش نمایش چقدر باشه')
+              .column
+                .field
+                  label.label رنگ پیش نمایش
+                  .control
+                    input.input(data-ng-model="c" type='color' placeholder='رنگ پیش نمایش چی باشه')
+          br
+          .columns.is-multiline(data-ng-show="icons")
+            .column.is-3(data-ng-repeat="i in icons | filter: f")
+              .box
+                .has-text-centered
+                  i(class="abi" style="font-size:{{ s }}em; color:{{ c }}" title="{{ i }}") {{ i }}
+                br
+                .field.has-addons
+                    .control.is-expanded
+                      input.input.is-small.is-fullwidth(type='text' readonly value!="&lt;i class=&quot;abi&quot;&gt;{{ i }}&lt;/i&gt;")
+                    .control
+                      button.button.is-small.is-info(onclick="copyToClipBoard(this)") کپی
+                    .control
+                      a.button.is-small.is-warning(href="https://cdn.jsdelivr.net/gh/aasaam/brand-icons/svg/{{ i }}.svg") CDN
+    br
+    br
+    br
+
+    footer.footer
+      .content.has-text-centered
+        p
+          | درست شده با 💓 از طرف
+          |
+          a(href='https://aasaam.com') گروه نرم‌افزاری آسام
+          br
+          | مجوز این کار تحت
+          |
+          a(rel='license', href='https://creativecommons.org/publicdomain/zero/1.0/') CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+          |
+          | می‌باشد.
+
+
+    script!=icons
+    script(src="https://cdn.jsdelivr.net/npm/angular@1.7.9/angular.min.js")
+    script.
+      window.copyToClipBoard = function (elm) {
+        const e = elm.parentNode.parentNode.querySelector('input[type=text]');
+        e.select();
+        e.setSelectionRange(0, 99999);
+        document.execCommand('copy');
+      };
+      window
+        .angular.module('app', [])
+        .run([
+          '$rootScope',
+          function ($rootScope) {
+            const up = new URLSearchParams(window.location.search);
+            $rootScope.ttfSize = window.ttfSize;
+            $rootScope.woffSize = window.woffSize;
+            $rootScope.woff2Size = window.woff2Size;
+            $rootScope.icons = window.icons;
+            $rootScope.number = window.icons.length;
+            $rootScope.f = '';
+            if (up.has('f')) {
+              $rootScope.f = up.get('f');
+              location.hash = "#list";
+            }
+            $rootScope.s = 8;
+            $rootScope.c = '#4a4a4a';
+
+            $rootScope.changeTheme = function (theme) {
+              $rootScope.theme = theme;
+            }
+          },
+        ]);
+

@@ -1,0 +1,51 @@
+{
+  "name": "@aasaam/brand-icons",
+  "version": "0.0.9",
+  "description": "aasaam brand icons",
+  "keywords": [
+    "logo",
+    "icon",
+    "font",
+    "brand"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aasaam/brand-icons.git"
+  },
+  "homepage": "https://aasaam.github.io/brand-icons/",
+  "devDependencies": {
+    "@types/lodash": "^4",
+    "@types/node": "*",
+    "@types/pug": "^2",
+    "filesize": "^6",
+    "icon-font-buildr": "^1",
+    "lodash": "^4",
+    "pug": "^3",
+    "simple-icons": "^3",
+    "svglint": "^1",
+    "svgo": "^1",
+    "ts-node": "^8",
+    "tslint": "^6",
+    "tslint-config-airbnb": "^5",
+    "tslint-sonarts": "^1",
+    "typescript": "^3"
+  },
+  "scripts": {
+    "lint:source": "tslint --project .",
+    "lint:names": "ts-node ./scripts/lint-names.ts",
+    "lint:all-svg": "svglint svg/*.svg",
+    "lint:svg": "svglint",
+    "svgo": "svgo --config=./.svgo.yml",
+    "build:simple-icons": "ts-node ./scripts/build-simple-icons.ts",
+    "build:fonts": "ts-node ./scripts/build-fonts.ts",
+    "build:webpage": "ts-node ./scripts/build-webpage.ts"
+  },
+  "authors": [
+    {
+      "name": "Muhammad Hussein Fattahizadeh",
+      "email": "m@mhf.ir"
+    }
+  ],
+  "license": "CC0-1.0",
+  "dependencies": {}
+}
