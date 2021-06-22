@@ -1,0 +1,9 @@
+node_modules/
+scripts/
+tmp/
+.editorconfig
+.prettierrc
+.svg*
+.travis.yml
+CONTRIBUTING.md
+index.html

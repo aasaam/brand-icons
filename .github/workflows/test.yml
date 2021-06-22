@@ -1,0 +1,21 @@
+on: ['push', 'pull_request']
+
+name: test
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: npm install, lint and test
+        run: |
+          npm install
+          npm run lint:names
+          npm run lint:all-svg

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'aasaamBrandIcons';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url(aasaamBrandIcons.woff2) format('woff2'),
+    url(aasaamBrandIcons.woff) format('woff'),
+    url(aasaamBrandIcons.ttf) format('truetype');
+}
+
+.abi {
+  font-family: 'aasaamBrandIcons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+}

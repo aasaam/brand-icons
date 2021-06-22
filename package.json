@@ -1,0 +1,41 @@
+{
+  "name": "@aasaam/brand-icons",
+  "version": "0.0.18",
+  "description": "aasaam brand icons",
+  "keywords": [
+    "iran",
+    "logo",
+    "icon",
+    "font",
+    "brand"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aasaam/brand-icons.git"
+  },
+  "homepage": "https://aasaam.github.io/brand-icons/",
+  "devDependencies": {
+    "filesize": "^6",
+    "icon-font-buildr": "^1",
+    "lodash": "^4",
+    "simple-icons": "^5",
+    "svglint": "^1",
+    "svgo": "^2"
+  },
+  "scripts": {
+    "lint:names": "./scripts/lint-names.js",
+    "lint:all-svg": "svglint svg/*.svg",
+    "lint:svg": "svglint",
+    "svgo": "svgo --config=./.svgo.config.js",
+    "build:simple-icons": "./scripts/build-simple-icons.js",
+    "build:fonts": "./scripts/build-fonts.js",
+    "build:docs": "./scripts/build-docs.js"
+  },
+  "authors": [
+    {
+      "name": "Muhammad Hussein Fattahizadeh",
+      "email": "m@mhf.ir"
+    }
+  ],
+  "license": "CC0-1.0"
+}

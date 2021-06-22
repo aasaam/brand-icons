@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <title>aasaam brand icons | فونت و آیکون علائم تجاری</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://cdn.jsdelivr.net/gh/aasaam/information/logo/icons/favicon-32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma-rtl.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@aasaam/noto-font/dist/font-face.min.css"
+    />
+    <link rel="stylesheet" href="./font/font-face.css" />
+    <style>
+      body,
+      input,
+      button {
+        font-family: 'aasaam-Noto';
+      }
+      [lang='en'] {
+        direction: ltr;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <section class="hero is-success">
+        <div class="hero-body">
+          <div class="has-text-centered">
+            <h1 class="is-size-1 has-text-weight-bold">
+              فونت و آیکون علائم تجاری
+            </h1>
+            <h1 class="is-size-2 has-text-weight-bold">aasaam Brand Icons</h1>
+            <div lang="en">
+              <p class="py-4">
+                <a href="https://github.com/aasaam/brand-icons">
+                  <img
+                    alt="GitHub repo size"
+                    src="https://img.shields.io/github/repo-size/aasaam/brand-icons"
+                  />
+                </a>
+                <a href="https://www.npmjs.com/package/@aasaam/brand-icons">
+                  <img
+                    alt="npm"
+                    src="https://img.shields.io/npm/v/@aasaam/brand-icons"
+                  />
+                </a>
+                <a
+                  href="https://github.com/aasaam/brand-icons/blob/master/LICENSE.md"
+                >
+                  <img
+                    alt="License"
+                    src="https://img.shields.io/github/license/aasaam/brand-icons"
+                  />
+                </a>
+                <br />
+                <img
+                  alt="License"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  v-bind:src="badgeURL('total icons', data.count, 'blue')"
+                />
+                <img
+                  alt="License"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  v-bind:src="badgeURL('TTF', data.size.ttf, 'blueviolet')"
+                />
+                <img
+                  alt="License"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  v-bind:src="badgeURL('WOFF', data.size.woff, 'blueviolet')"
+                />
+                <img
+                  alt="License"
+                  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                  v-bind:src="badgeURL('WOFF2', data.size.woff2, 'blueviolet')"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <div class="content">
+          <div class="py-6">
+            <h1>این پروژه چیست؟</h1>
+            <p>
+              این پروژه متشکل شده از تعداد زیادی (<strong
+                >{{ data.count }}</strong
+              >
+              عدد) آیکون از مخزن خوب
+              <a href="https://github.com/simple-icons/simple-icons"
+                >Simple icon</a
+              >
+              و همچنین تعدادی آیکون از لوگو،‌ آرم، نشان از سازمان‌ها، نهادها و
+              ... که در ایران کاربرد دارند.
+            </p>
+            <h1>چجوری از این پروژه استفاده کنم؟</h1>
+            <p>
+              میتونید از این فونت در سیستم عامل خود و یا نرم‌افزار تحت وب
+              استفاده کنید.<br />یا حتی میتونید مستقیم از svg ها استفاده کنید.
+            </p>
+            <h2>توی سیستم عامل؟</h2>
+            <p>
+              آخرین نسخه
+              <a
+                href="https://raw.githubusercontent.com/aasaam/brand-icons/master/font/aasaamBrandIcons.ttf"
+                >فرمت TTF</a
+              >
+              را دانلود کنید و در سیستم عامل خود نصب کنید.
+            </p>
+            <p>
+              و در برنامه‌ای مثل ورد یا هر نرم‌افزار دیگه‌ای که امکان انتخاب
+              فونت رو دارید فونت
+              <code dir="ltr">aasaamBrandIcons</code>
+              رو انتخاب کنید و عنوان لوگو را تایپ کنید. مثلا تایپ کنید
+              <code dir="ltr">ir_aasaam</code>
+              و بعدش لوگوی مورد نظرتون ظاهر میشه.
+            </p>
+            <h2>توی پروژه وب چی؟</h2>
+            <p>
+              میتونید از سی دی ان استفاده کنید و بزارید داخل کد اچ تی ام ال:
+            </p>
+            <pre lang="en">
+&lt;link href="https://cdn.jsdelivr.net/gh/aasaam/brand-icons/font/font-face.min.css"&gt;</pre
+            >
+            <p></p>
+            <p>یا میتونید از ان پی ام استفاده کنید:</p>
+            <pre lang="en">npm install @aasaam/brand-icons</pre>
+            <p></p>
+            <p>بعدش کافیه که توی اچ تی ام ال کد نمونه رو وارد کنید:</p>
+            <pre lang="en">&lt;i class="abi"&gt;ir_aasaam&lt;/i&gt;</pre>
+            <p></p>
+            <h3></h3>
+            <p>اگه نخوام کل فونت رو لود کنم چی؟</p>
+            <pre lang="en">
+&lt;img src="https://cdn.jsdelivr.net/gh/aasaam/brand-icons/svg/ir_aasaam.svg" alt="aasaam" /&gt;</pre
+            >
+            <p></p>
+            <h2>نام گذاری چجوریه؟</h2>
+            <p>
+              آیکون هایی که به عبارت
+              <code dir="ltr">ir_</code>
+              شروع میشه مربوط به ایران هست، آیکون هایی که با
+              <code dir="ltr">si_</code>
+              مربوط به پروژه
+              <a href="https://github.com/simple-icons/simple-icons"
+                >Simple Icons</a
+              >
+              و سایر آیکون ها با پیشوند
+              <code dir="ltr">wi_</code>هستند.
+            </p>
+            <h2>چجوری آیکون جدید درست کنم؟ یا حتی قبلی رو آپدیت کنم؟</h2>
+            <p>
+              برید توی بخش
+              <a
+                href="https://github.com/aasaam/brand-icons/blob/master/CONTRIBUTING.md"
+                >راهنمای مشارکت</a
+              >
+              در گیت‌هاب که توضیحات رو بخونید و آرم یا نشان خودتون رو به این
+              پروژه اضافه کنید.
+            </p>
+            <h2>
+              چرا آیکون سازمان یا شرکت من اینجاست؟ چجوری پاکش کنم؟ چطوری اصلاحش
+              کنم؟
+            </h2>
+            <p>
+              اگه نشان شما مشکل داره و یا اگه فکر می‌کنید قوانین نام تجاری شما
+              نقض شده میتونید
+              <a href="https://github.com/aasaam/brand-icons/issues"
+                >یه ایشو باز کنید</a
+              >
+              درخواست بدید که نشان شما تغییر کنه یا حذف بشه.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">فهرست آیکون‌ها</p>
+          </header>
+          <div class="card-content">
+            <div class="columns">
+              <div class="column">
+                <input
+                  class="input"
+                  v-model="name"
+                  type="text"
+                  placeholder="دنبال آیکون خاصی میگردی؟"
+                />
+              </div>
+              <div class="column">
+                <input
+                  class="input"
+                  v-model="size"
+                  type="number"
+                  min="1"
+                  max="12"
+                  placeholder="اندازه پیش نمایش چقدر باشه"
+                />
+              </div>
+              <div class="column">
+                <input
+                  class="input"
+                  v-model="color"
+                  type="color"
+                  placeholder="رنگ پیش نمایش چی باشه"
+                />
+              </div>
+            </div>
+            <div class="columns is-multiline">
+              <div class="column is-3 ng-scope" v-for="i in icons">
+                <div class="box">
+                  <div class="has-text-centered">
+                    <i
+                      v-bind:title="i"
+                      v-bind:style="{ fontSize: size + 'em', color: color }"
+                      class="abi"
+                      >{{ i }}</i
+                    >
+                  </div>
+                  <br />
+                  <div class="field has-addons">
+                    <div class="control is-expanded">
+                      <input
+                        lang="en"
+                        class="input is-small is-fullwidth"
+                        type="text"
+                        readonly=""
+                        v-bind:value="iconTag(i)"
+                      />
+                    </div>
+                    <div class="control">
+                      <button
+                        class="button is-small is-info"
+                        @click="toClipboard(i)"
+                      >
+                        کپی
+                      </button>
+                    </div>
+                    <div class="control">
+                      <a
+                        class="button is-small is-warning"
+                        target="_blank"
+                        v-bind:href="cdnURL(i)"
+                        >CDN</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-4">
+        <p class="has-text-centered">
+          <img
+            alt="aasaam software development group"
+            src="https://raw.githubusercontent.com/aasaam/information/master/logo/aasaam.svg"
+            width="64"
+          />
+          <br />
+          aasaam software development group
+        </p>
+      </div>
+    </div>
+
+    <script id="data">var data = {"count":2325,"size":{"ttf":"1.79 MB","woff":"1.27 MB","woff2":"1.09 MB"},"icons":["ir_aasaam","ir_abidi","ir_afkarnews","ir_afta","ir_amar","ir_ansar","ir_aparat","ir_arvancloud","ir_asanpardakht","ir_asiatech","ir_authin","ir_ayandeh","ir_baham","ir_bale","ir_behnoosh","ir_behran","ir_behrooz","ir_behzisti","ir_bimehiran","ir_bimehmarkazi","ir_bimehsalamat","ir_bitbaan","ir_blogfa","ir_bmn","ir_borna","ir_butane","ir_cafebazaar","ir_canbo","ir_cannews","ir_carpino","ir_caspian","ir_cloob","ir_cra","ir_cspf","ir_cyberpolice","ir_daneshbonyan","ir_dey","ir_digikala","ir_divar","ir_doctv","ir_doe","ir_donya_e_eqtesad","ir_ecoiran","ir_ecunion","ir_eghtesadnews","ir_eghtesadnovin","ir_eghtesadonline","ir_eima","ir_eitaa","ir_enamad","ir_esamta","ir_esteghlalfc","ir_fajrfilmfestival","ir_fidibo","ir_firedepartment","ir_futurebank","ir_gap","ir_gardeshgari","ir_ghavamin","ir_golrang","ir_hafttappeh","ir_hekmat","ir_hepco","ir_hiweb","ir_honaronline","ir_iau","ir_ibto","ir_ictgov","ir_igap","ir_ihdae","ir_ikco","ir_ilna","ir_irancell","ir_iraneurope","ir_iranmall","ir_irannsr","ir_iranol","ir_irantvto","ir_iranzamin","ir_irib","ir_irib1","ir_irib2","ir_irib3","ir_irib4","ir_irib5","ir_irib7","ir_irimo","ir_irinn","ir_irisl","ir_iritco","ir_irna","ir_irost","ir_isc","ir_itrc","ir_iums","ir_iust","ir_jamaran","ir_kanonvokala","ir_kanoonparvaresh","ir_karafarin","ir_kavirtire","ir_keshavarzi","ir_khabaronline","ir_khanehcinema","ir_khavarmianeh","ir_khwarizmi","ir_kosar","ir_maj","ir_maktabkhooneh","ir_mamlekatonline","ir_mapna","ir_markazi","ir_maskan","ir_mci","ir_mcth","ir_mediaad","ir_medu","ir_mehreghtesad","ir_mehriran","ir_mehrnews","ir_melal","ir_mellat","ir_melli","ir_metrotehran","ir_minoo","ir_mohme","ir_mojnews","ir_mosalas","ir_msc","ir_msrt","ir_msy","ir_mun_ahvaz","ir_mun_arak","ir_mun_ardabil","ir_mun_bandarabbas","ir_mun_birjand","ir_mun_bojnurd","ir_mun_bushehr","ir_mun_gorgan","ir_mun_hamedan","ir_mun_ilam","ir_mun_isfahan","ir_mun_karaj","ir_mun_kerman","ir_mun_kermanshah","ir_mun_khorramabad","ir_mun_mashhad","ir_mun_qazvin","ir_mun_qom","ir_mun_rasht","ir_mun_sanandaj","ir_mun_sari","ir_mun_semnan","ir_mun_shahrekord","ir_mun_shiraz","ir_mun_tabriz","ir_mun_tehran","ir_mun_urmia","ir_mun_yasuj","ir_mun_yazd","ir_mun_zahedan","ir_mun_zanjan","ir_mvm","ir_nahaltv","ir_namayeshtv","ir_ndf","ir_nlai","ir_noor","ir_noorvision","ir_ntdc","ir_ofoghtv","ir_oil","ir_okcs","ir_omidtv","ir_parsappliance","ir_parsian","ir_parskhazar","ir_parsnews","ir_parsonline","ir_parspal","ir_pasargad","ir_paxan","ir_paydarymelli","ir_pec","ir_perspolicefc","ir_petrotahlil","ir_pmo","ir_pooyatv","ir_post","ir_postbank","ir_qurantv","ir_rcs","ir_refah","ir_refahstore","ir_resalat","ir_rightel","ir_rokna","ir_sabteahval","ir_sadad","ir_saderat","ir_saipa","ir_sairan","ir_salamattv","ir_saman","ir_samandehi","ir_samt","ir_sanatmadan","ir_sanjesh","ir_sapp","ir_sarmayeh","ir_sazmanmellijavanan","ir_semnantile","ir_sepah","ir_shahr","ir_shahremohtava","ir_shahrvand","ir_shaidbeheshtiuni","ir_shaparak","ir_sharif","ir_shatel","ir_shetab","ir_sheypoor","ir_shomanews","ir_shomatv","ir_sibapp","ir_sina","ir_sindad","ir_snapp","ir_snowa","ir_standard","ir_systemgroup","ir_taavoneslami","ir_tamashatv","ir_tamin","ir_tap30","ir_tarafdari","ir_tarjoman","ir_tavakoli","ir_tavanir","ir_tci","ir_tehranuni","ir_tejarat","ir_tejaratfarda","ir_tinn","ir_torob","ir_tosee","ir_toseesaderat","ir_toseetaavon","ir_tractorclub","ir_tse","ir_tvnasim","ir_varzesh3","ir_varzeshtv","ir_virgool","ir_womangov","ir_xvision","ir_yektanet","ir_zarinpal","ir_zoomit","si_1001tracklists","si_1password","si_3m","si_42","si_4d","si_500px","si_a_frame","si_abbrobotstudio","si_abbvie","si_abletonlive","si_about_dot_me","si_aboutdotme","si_abstract","si_academia","si_accenture","si_acclaim","si_accusoft","si_acer","si_acm","si_actigraph","si_activision","si_adafruit","si_adblock","si_adblockplus","si_addthis","si_adguard","si_adobe","si_adobeacrobatreader","si_adobeaftereffects","si_adobeaudition","si_adobecreativecloud","si_adobedreamweaver","si_adobefonts","si_adobeillustrator","si_adobeindesign","si_adobelightroom","si_adobelightroomcc","si_adobelightroomclassic","si_adobephonegap","si_adobephotoshop","si_adobepremierepro","si_adobexd","si_adonisjs","si_aerlingus","si_aeroflot","si_aeromexico","si_aerospike","si_affinity","si_affinitydesigner","si_affinityphoto","si_affinitypublisher","si_aframe","si_aidungeon","si_aiohttp","si_aiqfome","si_airasia","si_airbnb","si_airbus","si_aircall","si_aircanada","si_airchina","si_airfrance","si_airplayaudio","si_airplayvideo","si_airtable","si_alacritty","si_alfaromeo","si_algolia","si_alibaba_dot_com","si_alibabacloud","si_alibabadotcom","si_aliexpress","si_alipay","si_alitalia","si_alliedmodders","si_allocine","si_alltrails","si_alpinedotjs","si_alpinelinux","si_altiumdesigner","si_amazon","si_amazonalexa","si_amazonaws","si_amazondynamodb","si_amazonfiretv","si_amazonlumberyard","si_amazonpay","si_amazonprime","si_amazons3","si_amd","si_americanairlines","si_americanexpress","si_amp","si_amul","si_ana","si_anaconda","si_analogue","si_anchor","si_andela","si_android","si_androidauto","si_androidstudio","si_angellist","si_angular","si_angularjs","si_angularuniversal","si_anilist","si_ansible","si_ansys","si_antdesign","si_antena3","si_anydesk","si_aol","si_apache","si_apacheairflow","si_apacheant","si_apachecassandra","si_apachecloudstack","si_apachecordova","si_apachedruid","si_apacheecharts","si_apacheflink","si_apachegroovy","si_apachehive","si_apachejmeter","si_apachekafka","si_apachekylin","si_apachemaven","si_apachenetbeanside","si_apacheopenoffice","si_apachepulsar","si_apacherocketmq","si_apachesolr","si_apachespark","si_apachetomcat","si_aparat","si_apollographql","si_apostrophe","si_apple","si_applearcade","si_applemusic","si_applepay","si_applepodcasts","si_appletv","si_appsignal","si_appstore","si_appveyor","si_aral","si_arangodb","si_archicad","si_archiveofourown","si_archlinux","si_ardour","si_arduino","si_arkecosystem","si_arlo","si_artixlinux","si_artstation","si_arxiv","si_asana","si_asciidoctor","si_asciinema","si_aseprite","si_askfm","si_askubuntu","si_assemblyscript","si_asus","si_at_and_t","si_atandt","si_atari","si_atlassian","si_atom","si_audacity","si_audi","si_audible","si_audio_technica","si_audioboom","si_audiomack","si_audiotechnica","si_aurelia","si_auth0","si_authy","si_autodesk","si_autohotkey","si_automatic","si_automattic","si_autotask","si_aventrix","si_awesomelists","si_awesomewm","si_awsamplify","si_azureartifacts","si_azuredataexplorer","si_azuredevops","si_azurefunctions","si_azurepipelines","si_b_and_rautomation","si_babel","si_badgr","si_badoo","si_baidu","si_bamboo","si_bancontact","si_bandcamp","si_bandlab","si_bandrautomation","si_bandsintown","si_bankofamerica","si_barclays","si_baremetrics","si_basecamp","si_bata","si_bathasu","si_battle_dot_net","si_battledotnet","si_bbc","si_bbciplayer","si_beatport","si_beats","si_beatsbydre","si_behance","si_beijingsubway","si_bentley","si_betfair","si_bigbasket","si_bigbluebutton","si_bigcartel","si_bigcommerce","si_bilibili","si_binance","si_bing","si_bit","si_bitbucket","si_bitcoin","si_bitcoincash","si_bitcoinsv","si_bitdefender","si_bitly","si_bitrise","si_bitwarden","si_bitwig","si_blackberry","si_blazemeter","si_blazor","si_blender","si_blockchain_dot_com","si_blockchaindotcom","si_blogger","si_bloglovin","si_blueprint","si_bluetooth","si_bmcsoftware","si_bmw","si_boeing","si_bookbub","si_bookmeter","si_bookstack","si_boost","si_bootstrap","si_bosch","si_bose","si_bower","si_box","si_brand_dot_ai","si_brandfolder","si_brave","si_breaker","si_britishairways","si_broadcom","si_bt","si_buddy","si_buefy","si_buffer","si_bugatti","si_bugcrowd","si_bugsnag","si_buildkite","si_bulma","si_bunq","si_buymeacoffee","si_buzzfeed","si_byte","si_bytedance","si_c","si_cachet","si_cairometro","si_cakephp","si_campaignmonitor","si_canonical","si_canva","si_capacitor","si_carthrottle","si_carto","si_cashapp","si_castbox","si_castorama","si_castro","si_caterpillar","si_cbs","si_cdprojekt","si_celery","si_centos","si_ceph","si_cesium","si_cevo","si_chai","si_chainlink","si_chakraui","si_chartdotjs","si_chartmogul","si_chase","si_chatbot","si_checkio","si_checkmarx","si_chef","si_chevrolet","si_chinaeasternairlines","si_chinasouthernairlines","si_chocolatey","si_chrysler","si_chupachups","si_cinema4d","si_circle","si_circleci","si_cirrusci","si_cisco","si_citrix","si_citroen","si_civicrm","si_ckeditor4","si_claris","si_clickup","si_clion","si_cliqz","si_clockify","si_clojure","si_cloud66","si_cloudbees","si_cloudcannon","si_cloudera","si_cloudflare","si_cloudfoundry","si_cloudsmith","si_cloudways","si_clubhouse","si_clyp","si_cmake","si_cnn","si_co_op","si_cockroachlabs","si_cocoapods","si_cocos","si_coda","si_codacy","si_codeberg","si_codecademy","si_codeceptjs","si_codechef","si_codeclimate","si_codecov","si_codefactor","si_codeforces","si_codeigniter","si_codemagic","si_codemirror","si_codenewbie","si_codepen","si_codeproject","si_codersrank","si_coderwall","si_codesandbox","si_codeship","si_codewars","si_codingame","si_codingninjas","si_codio","si_coffeescript","si_cognizant","si_coinbase","si_commerzbank","si_commonworkflowlanguage","si_composer","si_compropago","si_concourse","si_conda_forge","si_condaforge","si_conekta","si_confluence","si_construct3","si_consul","si_contactlesspayment","si_contentful","si_convertio","si_cookiecutter","si_coop","si_coronaengine","si_coronarenderer","si_corsair","si_couchbase","si_counter_strike","si_counterstrike","si_countingworkspro","si_coursera","si_coveralls","si_cpanel","si_cplusplus","si_craftcms","si_creativecommons","si_crehana","si_crowdin","si_crowdsource","si_crunchbase","si_crunchyroll","si_cryengine","si_crystal","si_csharp","si_css3","si_csswizardry","si_cucumber","si_curl","si_curseforge","si_cycling74","si_cypress","si_d3_dot_js","si_d3dotjs","si_d_wavesystems","si_dacia","si_daf","si_dailymotion","si_daimler","si_darkreader","si_dart","si_daserste","si_dash","si_dashlane","si_dassaultsystemes","si_databricks","si_datacamp","si_datadog","si_datastax","si_dataversioncontrol","si_datocms","si_datto","si_dazn","si_dblp","si_dbt","si_dcentertainment","si_debian","si_deepin","si_deepnote","si_deezer","si_delicious","si_deliveroo","si_dell","si_delonghi","si_delphi","si_delta","si_deno","si_dependabot","si_derspiegel","si_designernews","si_deutschebahn","si_deutschebank","si_dev_dot_to","si_devdotto","si_deviantart","si_devpost","si_devrant","si_dgraph","si_dhl","si_diagrams_dot_net","si_diagramsdotnet","si_dialogflow","si_diaspora","si_digg","si_digi_keyelectronics","si_digikeyelectronics","si_digitalocean","si_dior","si_directus","si_discogs","si_discord","si_discourse","si_discover","si_disqus","si_disroot","si_django","si_dlna","si_docker","si_docusign","si_dogecoin","si_dolby","si_doordash","si_dot_net","si_dotnet","si_douban","si_draugiem_dot_lv","si_draugiemdotlv","si_dribbble","si_drone","si_drooble","si_dropbox","si_drupal","si_dsautomobiles","si_dtube","si_duckduckgo","si_dunked","si_duolingo","si_dwavesystems","si_dwm","si_dynamics365","si_dynatrace","si_ea","si_eagle","si_easyjet","si_ebay","si_eclipseche","si_eclipseide","si_eclipsejetty","si_eclipsemosquitto","si_eclipsevert_dot_x","si_eclipsevertdotx","si_editorconfig","si_edx","si_egghead","si_egnyte","si_eightsleep","si_elastic","si_elasticcloud","si_elasticsearch","si_elasticstack","si_electron","si_element","si_elementary","si_eleventy","si_elixir","si_eljueves","si_ello","si_elm","si_elsevier","si_embarcadero","si_ember_dot_js","si_emberdotjs","si_emby","si_emirates","si_emlakjet","si_empirekred","si_enpass","si_envato","si_epel","si_epicgames","si_epson","si_erlang","si_esea","si_eslgaming","si_eslint","si_esphome","si_espressif","si_ethereum","si_ethiopianairlines","si_etihadairways","si_etsy","si_eventbrite","si_eventstore","si_evernote","si_everplaces","si_evry","si_exercism","si_expensify","si_expertsexchange","si_expo","si_express","si_eyeem","si_f_droid","si_f_secure","si_facebook","si_facebookgaming","si_facebooklive","si_faceit","si_facepunch","si_falcon","si_fampay","si_fandango","si_fandom","si_farfetch","si_fastapi","si_fastify","si_fastlane","si_fastly","si_fathom","si_favro","si_fdroid","si_feathub","si_fedex","si_fedora","si_fedramp","si_feedly","si_ferrari","si_ferrarin_dot_v_dot","si_ferrarinv","si_ffmpeg","si_fiat","si_fidoalliance","si_fifa","si_figma","si_figshare","si_fila","si_files","si_filezilla","si_fing","si_firebase","si_firefox","si_firefoxbrowser","si_first","si_fitbit","si_fite","si_fiverr","si_flask","si_flathub","si_flattr","si_flickr","si_flipboard","si_flipkart","si_floatplane","si_flood","si_fluentd","si_flutter","si_fmod","si_fnac","si_folium","si_fontawesome","si_fontbase","si_foodpanda","si_ford","si_forestry","si_formstack","si_fortinet","si_fortran","si_fossa","si_fossilscm","si_foursquare","si_foursquarecityguide","si_foxtel","si_fozzy","si_framer","si_fraunhofergesellschaft","si_freebsd","si_freecodecamp","si_freedesktop_dot_org","si_freedesktopdotorg","si_freelancer","si_freenas","si_fsecure","si_fujifilm","si_fujitsu","si_furaffinity","si_furrynetwork","si_futurelearn","si_g2a","si_gamejolt","si_garmin","si_gatling","si_gatsby","si_gauges","si_geeksforgeeks","si_generalelectric","si_generalmotors","si_genius","si_gentoo","si_geocaching","si_gerrit","si_ghost","si_ghostery","si_gimp","si_giphy","si_git","si_gitbook","si_gitea","si_gitee","si_gitextensions","si_github","si_githubactions","si_githubsponsors","si_gitkraken","si_gitlab","si_gitlfs","si_gitpod","si_gitter","si_glassdoor","si_glitch","si_gmail","si_gnome","si_gnu","si_gnubash","si_gnuemacs","si_gnuicecat","si_gnuprivacyguard","si_gnusocial","si_go","si_godaddy","si_godotengine","si_gofundme","si_gog_dot_com","si_gogdotcom","si_goldenline","si_goodreads","si_google","si_googleads","si_googleadsense","si_googleanalytics","si_googleassistant","si_googlecalendar","si_googlecardboard","si_googlecast","si_googlechat","si_googlechrome","si_googleclassroom","si_googlecloud","si_googlecolab","si_googledomains","si_googledrive","si_googleearth","si_googlefit","si_googlefonts","si_googlehangouts","si_googlehangoutschat","si_googlehangoutsmeet","si_googlekeep","si_googlelens","si_googlemaps","si_googlemeet","si_googlemessages","si_googlemybusiness","si_googlenearby","si_googlenews","si_googleoptimize","si_googlepay","si_googlephotos","si_googleplay","si_googlepodcasts","si_googlescholar","si_googlesearchconsole","si_googlesheets","si_googlestreetview","si_googletagmanager","si_googletranslate","si_gotomeeting","si_gov_dot_uk","si_gradle","si_grafana","si_grammarly","si_graphcool","si_graphql","si_grav","si_gravatar","si_graylog","si_greensock","si_griddotai","si_gridsome","si_groovy","si_groupon","si_grubhub","si_grunt","si_guangzhoumetro","si_gulp","si_gumroad","si_gumtree","si_gutenberg","si_habr","si_hackaday","si_hackclub","si_hackerearth","si_hackerone","si_hackerrank","si_hackhands","si_hackster","si_hackthebox","si_handshake","si_handshake_protocol","si_happycow","si_harbor","si_hashnode","si_haskell","si_hasura","si_hatenabookmark","si_haveibeenpwned","si_haxe","si_hbo","si_hcl","si_headspace","si_hellofresh","si_hellyhansen","si_helm","si_helpdesk","si_here","si_heroku","si_hexo","si_hey","si_hibernate","si_highly","si_hilton","si_hipchat","si_hitachi","si_hive","si_hive_blockchain","si_hockeyapp","si_homeadvisor","si_homeassistant","si_homeassistantcommunitystore","si_homebrew","si_homebridge","si_homify","si_honda","si_hootsuite","si_hoppscotch","si_hotels_dot_com","si_hotelsdotcom","si_hotjar","si_houdini","si_houzz","si_hp","si_html5","si_htmlacademy","si_huawei","si_hubspot","si_hugo","si_hulu","si_humblebundle","si_hungryjacks","si_hurriyetemlak","si_husqvarna","si_hyper","si_hyperledger","si_hypothesis","si_hyundai","si_iata","si_ibeacon","si_ibm","si_ibmwatson","si_icinga","si_icloud","si_icomoon","si_icon","si_iconfinder","si_iconify","si_iconjar","si_icons8","si_icq","si_ideal","si_ieee","si_ifixit","si_ifood","si_ifttt","si_iheartradio","si_ikea","si_imagej","si_imdb","si_imgur","si_immer","si_imou","si_indeed","si_infiniti","si_influxdb","si_informatica","si_infosys","si_ingress","si_inkscape","si_insomnia","si_instacart","si_instagram","si_instapaper","si_instructables","si_integromat","si_intel","si_intellijidea","si_intercom","si_internetarchive","si_internetexplorer","si_intigriti","si_invision","si_invoiceninja","si_iobroker","si_ionic","si_ios","si_iota","si_ipfs","si_issuu","si_itch_dot_io","si_itchdotio","si_itunes","si_iveco","si_jabber","si_jaguar","si_jamboard","si_jameson","si_jamstack","si_jasmine","si_java","si_javascript","si_jbl","si_jcb","si_jeep","si_jekyll","si_jellyfin","si_jenkins","si_jenkinsx","si_jest","si_jet","si_jetbrains","si_jfrog","si_jfrogbintray","si_jinja","si_jira","si_jirasoftware","si_jitsi","si_johndeere","si_joomla","si_jpeg","si_jquery","si_jrgroup","si_jsdelivr","si_jsfiddle","si_json","si_jsonwebtokens","si_jss","si_julia","si_junipernetworks","si_junit5","si_jupyter","si_justeat","si_justgiving","si_kaggle","si_kahoot","si_kaios","si_kakao","si_kakaotalk","si_kalilinux","si_karlsruherverkehrsverbund","si_kasasmart","si_kashflow","si_kaspersky","si_katacoda","si_katana","si_kaufland","si_kde","si_kdenlive","si_keepassxc","si_kentico","si_keras","si_keybase","si_keycdn","si_khanacademy","si_khronosgroup","si_kia","si_kibana","si_kickstarter","si_kik","si_kirby","si_kitsu","si_klarna","si_klm","si_klook","si_klout","si_knowledgebase","si_known","si_ko_fi","si_kodi","si_koding","si_kofax","si_kofi","si_komoot","si_kongregate","si_kotlin","si_krita","si_ktm","si_kubernetes","si_kubuntu","si_kyocera","si_labview","si_lada","si_lamborghini","si_landrover","si_laragon","si_laravel","si_laravelhorizon","si_laravelnova","si_last_dot_fm","si_lastdotfm","si_lastpass","si_latex","si_launchpad","si_lbry","si_leaflet","si_leanpub","si_leetcode","si_lenovo","si_less","si_letsencrypt","si_letterboxd","si_lg","si_lgtm","si_liberapay","si_librariesdotio","si_librarything","si_libreoffice","si_libuv","si_lichess","si_lifx","si_lighthouse","si_line","si_lineageos","si_linewebtoon","si_linkedin","si_linktree","si_linode","si_linux","si_linuxcontainers","si_linuxfoundation","si_linuxmint","si_lionair","si_lit","si_litecoin","si_livechat","si_livejournal","si_livestream","si_llvm","si_lmms","si_logitech","si_logmein","si_logstash","si_looker","si_loom","si_loop","si_lospec","si_lotpolishairlines","si_lua","si_lubuntu","si_lufthansa","si_lumen","si_lydia","si_lyft","si_maas","si_macos","si_macys","si_magento","si_magisk","si_mail_dot_ru","si_mailchimp","si_maildotru","si_majorleaguehacking","si_makerbot","si_man","si_manageiq","si_manjaro","si_mapbox","si_mariadb","si_mariadbfoundation","si_markdown","si_marketo","si_marriott","si_maserati","si_mastercard","si_mastercomfig","si_mastodon","si_material_ui","si_materialdesign","si_materialdesignicons","si_materialui","si_mathworks","si_matomo","si_matrix","si_mattermost","si_matternet","si_max","si_max_planck_gesellschaft","si_maxplanckgesellschaft","si_maytag","si_mazda","si_mcafee","si_mcdonalds","si_mclaren","si_mdnwebdocs","si_mediafire","si_mediatek","si_mediatemple","si_medium","si_meetup","si_mega","si_mendeley","si_mercedes","si_mercurial","si_messenger","si_metabase","si_metafilter","si_meteor","si_metro","si_metrodelaciudaddemexico","si_metrodemadrid","si_metrodeparis","si_mewe","si_micro_dot_blog","si_microbit","si_microdotblog","si_microgenetics","si_micropython","si_microsoft","si_microsoftacademic","si_microsoftaccess","si_microsoftazure","si_microsoftbing","si_microsoftedge","si_microsoftexcel","si_microsoftexchange","si_microsoftoffice","si_microsoftonedrive","si_microsoftonenote","si_microsoftoutlook","si_microsoftpowerpoint","si_microsoftsharepoint","si_microsoftsqlserver","si_microsoftteams","si_microsoftvisio","si_microsoftword","si_microstrategy","si_midi","si_minds","si_minecraft","si_minetest","si_mini","si_minutemailer","si_miro","si_mitsubishi","si_mix","si_mixcloud","si_mixer","si_mobx","si_mobx_state_tree","si_mobxstatetree","si_mocha","si_modx","si_mojangstudios","si_moleculer","si_momenteo","si_monero","si_mongodb","si_monkeytie","si_monogram","si_monster","si_monzo","si_moo","si_moscowmetro","si_motorola","si_mozilla","si_mta","si_mtr","si_mumble","si_musescore","si_musicbrainz","si_mxlinux","si_myanimelist","si_myob","si_myspace","si_mysql","si_n26","si_namebase","si_namecheap","si_nano","si_nasa","si_nationalgrid","si_nativescript","si_naver","si_nba","si_nbb","si_ndr","si_nec","si_neo4j","si_neovim","si_nestjs","si_netapp","si_netflix","si_netlify","si_newjapanpro_wrestling","si_newjapanprowrestling","si_newrelic","si_newyorktimes","si_next_dot_js","si_nextcloud","si_nextdoor","si_nextdotjs","si_nfc","si_nginx","si_ngrok","si_niconico","si_nim","si_nintendo","si_nintendo3ds","si_nintendogamecube","si_nintendonetwork","si_nintendoswitch","si_nissan","si_nixos","si_node_dot_js","si_node_red","si_nodedotjs","si_nodemon","si_nodered","si_nokia","si_norwegian","si_notepadplusplus","si_notion","si_notist","si_nounproject","si_npm","si_nrwl","si_nubank","si_nucleo","si_nuget","si_nuke","si_numba","si_numpy","si_nutanix","si_nuxt_dot_js","si_nuxtdotjs","si_nvidia","si_nx","si_observable","si_obsstudio","si_ocaml","si_octave","si_octopusdeploy","si_oculus","si_odnoklassniki","si_odysee","si_okcupid","si_okta","si_oneplus","si_onlyfans","si_onnx","si_onstar","si_opel","si_openaccess","si_openai","si_openaigym","si_openapiinitiative","si_openbadges","si_openbsd","si_openbugbounty","si_opencollective","si_opencontainersinitiative","si_opencv","si_openfaas","si_opengl","si_openid","si_openlayers","si_opennebula","si_opensourceinitiative","si_openssl","si_openstack","si_openstreetmap","si_opensuse","si_openvpn","si_openwrt","si_opera","si_opnsense","si_opsgenie","si_opslevel","si_oracle","si_orcid","si_org","si_origin","si_osano","si_oshkosh","si_osmc","si_osu","si_overcast","si_overleaf","si_ovh","si_owasp","si_oxygen","si_oyo","si_p5_dot_js","si_p5dotjs","si_packagist","si_paddypower","si_pagekit","si_pagerduty","si_pagespeedinsights","si_pagseguro","si_palantir","si_paloaltosoftware","si_pandas","si_pandora","si_pantheon","si_paritysubstrate","si_parse_dot_ly","si_parsedotly","si_passport","si_pastebin","si_patreon","si_payoneer","si_paypal","si_paytm","si_pcgamingwiki","si_peertube","si_pegasusairlines","si_pelican","si_peloton","si_pepsi","si_perforce","si_periscope","si_perl","si_peugeot","si_pexels","si_pfsense","si_phabricator","si_philipshue","si_phonepe","si_photobucket","si_photocrowd","si_photopea","si_php","si_phpstorm","si_pi_hole","si_picarto_dot_tv","si_picartodottv","si_picnic","si_picpay","si_pihole","si_pimcore","si_pinboard","si_pingdom","si_pingup","si_pinterest","si_pioneerdj","si_pivotaltracker","si_piwigo","si_pixabay","si_pixiv","si_pjsip","si_planet","si_plangrid","si_platformdotsh","si_platzi","si_playcanvas","si_player_dot_me","si_playerdotme","si_playerfm","si_playstation","si_playstation2","si_playstation3","si_playstation4","si_playstation5","si_playstationvita","si_pleroma","si_plesk","si_plex","si_plotly","si_pluralsight","si_plurk","si_pluscodes","si_pm2","si_pnpm","si_pocket","si_pocketcasts","si_podcastaddict","si_podman","si_pointy","si_pokemon","si_poly","si_polymerproject","si_polywork","si_pop_os","si_popos","si_porsche","si_portainer","si_postcss","si_postgresql","si_postman","si_postmates","si_postwoman","si_powerbi","si_powers","si_powershell","si_pr_dot_co","si_prdotco","si_pre_commit","si_precommit","si_premierleague","si_prestashop","si_presto","si_prettier","si_prezi","si_prime","si_primevideo","si_prisma","si_prismic","si_privateinternetaccess","si_probot","si_processingfoundation","si_processwire","si_producthunt","si_progate","si_progress","si_prometheus","si_prosieben","si_proto_dot_io","si_protocols_dot_io","si_protocolsdotio","si_protodotio","si_protondb","si_protonmail","si_protonvpn","si_protools","si_proxmox","si_publons","si_pubmed","si_pug","si_puppet","si_puppeteer","si_purescript","si_purgecss","si_purism","si_pusher","si_pycharm","si_pypi","si_pypy","si_pytest","si_python","si_pytorch","si_pytorchlightning","si_pyup","si_qantas","si_qatarairways","si_qemu","si_qgis","si_qi","si_qiita","si_qiskit","si_qiwi","si_qt","si_qualcomm","si_qualtrics","si_quantcast","si_quantconnect","si_quantopian","si_quarkus","si_quasar","si_qubesos","si_quest","si_quickbooks","si_quicktime","si_quip","si_quora","si_qwiklabs","si_qzone","si_r","si_r3","si_rabbitmq","si_racket","si_radar","si_radiopublic","si_railway","si_rainmeter","si_rakuten","si_ram","si_rancher","si_raspberrypi","si_razer","si_react","si_reactivex","si_reactos","si_reactrouter","si_readthedocs","si_realm","si_reason","si_reasonstudios","si_redbubble","si_reddit","si_redhat","si_redhatopenshift","si_redis","si_redux","si_redux_saga","si_reduxsaga","si_redwoodjs","si_relianceindustrieslimited","si_renault","si_renovatebot","si_renpy","si_renren","si_repl_dot_it","si_replit","si_researchgate","si_resurrectionremixos","si_retroarch","si_retropie","si_reveal_dot_js","si_revealdotjs","si_reverbnation","si_revolut","si_revue","si_rewe","si_rezgo","si_rhinoceros","si_rider","si_ring","si_riot","si_riotgames","si_ripple","si_riseup","si_roamresearch","si_roblox","si_robotframework","si_rocketdotchat","si_roku","si_rolls_royce","si_rollsroyce","si_rollup_dot_js","si_rollupdotjs","si_roots","si_rootsbedrock","si_rootssage","si_ros","si_rottentomatoes","si_roundcube","si_rss","si_rstudio","si_rte","si_rtl","si_rtlzwei","si_ruby","si_rubygems","si_rubyonrails","si_runkeeper","si_runkit","si_rust","si_rxdb","si_ryanair","si_s7airlines","si_safari","si_sahibinden","si_salesforce","si_saltstack","si_samsung","si_samsungpay","si_sanfranciscomunicipalrailway","si_saopaulometro","si_sap","si_sass","si_sat1","si_sat_dot_1","si_saucelabs","si_scala","si_scaleway","si_scania","si_scikit_learn","si_scikitlearn","si_scipy","si_scopus","si_scratch","si_screencastify","si_scribd","si_scrimba","si_scrollreveal","si_scrumalliance","si_scrutinizerci","si_seagate","si_seat","si_sefaria","si_sega","si_selenium","si_sellfy","si_semantic_release","si_semanticrelease","si_semanticuireact","si_semanticweb","si_semaphoreci","si_semver","si_sencha","si_sennheiser","si_sensu","si_sentry","si_sepa","si_serverfault","si_serverless","si_sfml","si_shanghaimetro","si_sharp","si_shazam","si_shell","si_shelly","si_shenzhenmetro","si_shields_dot_io","si_shieldsdotio","si_shikimori","si_shopify","si_shopware","si_shotcut","si_showpad","si_showtime","si_shutterstock","si_siemens","si_signal","si_simkl","si_simpleanalytics","si_simpleicons","si_sinaweibo","si_singlestore","si_sitepoint","si_sketch","si_sketchfab","si_sketchup","si_skillshare","si_skoda","si_sky","si_skyliner","si_skype","si_skypeforbusiness","si_slack","si_slackware","si_slashdot","si_slickpic","si_slides","si_slideshare","si_smart","si_smartthings","si_smashdotgg","si_smashingmagazine","si_smrt","si_smugmug","si_snapchat","si_snapcraft","si_snowflake","si_snyk","si_society6","si_socket_dot_io","si_socketdotio","si_sogou","si_solidity","si_sololearn","si_solus","si_sonarcloud","si_sonarlint","si_sonarqube","si_sonarsource","si_songkick","si_songoda","si_sonicwall","si_sonos","si_soundcloud","si_sourceengine","si_sourceforge","si_sourcegraph","si_southwestairlines","si_spacemacs","si_spacex","si_sparkar","si_sparkasse","si_sparkfun","si_sparkpost","si_spdx","si_speakerdeck","si_spectrum","si_speedtest","si_spinnaker","si_spinrilla","si_splunk","si_spotify","si_spotlight","si_spreaker","si_spring","si_springboot","si_sprint","si_spyderide","si_sqlite","si_square","si_squareenix","si_squarespace","si_ssrn","si_stackbit","si_stackexchange","si_stackoverflow","si_stackpath","si_stackshare","si_stadia","si_staffbase","si_starlingbank","si_starship","si_startrek","si_starz","si_statamic","si_staticman","si_statuspage","si_statuspal","si_steam","si_steamdb","si_steamworks","si_steem","si_steemit","si_steinberg","si_stellar","si_stencyl","si_stimulus","si_stitcher","si_stmicroelectronics","si_storify","si_storyblok","si_storybook","si_strapi","si_strava","si_streamlit","si_stripe","si_strongswan","si_stubhub","si_styled_components","si_styledcomponents","si_stylelint","si_styleshare","si_stylus","si_subaru","si_sublimetext","si_substack","si_subversion","si_suckless","si_sumologic","si_supabase","si_superuser","si_surveymonkey","si_suse","si_suzuki","si_svelte","si_svg","si_svgo","si_swagger","si_swarm","si_swift","si_swiggy","si_swiper","si_symantec","si_symfony","si_symphony","si_sympy","si_synology","si_t_mobile","si_tableau","si_tado","si_tails","si_tailwindcss","si_talend","si_tampermonkey","si_taobao","si_tapas","si_tasmota","si_tata","si_taxbuzz","si_teamcity","si_teamspeak","si_teamviewer","si_ted","si_teespring","si_tekton","si_tele5","si_telegram","si_telegraph","si_tencentqq","si_tencentweibo","si_tensorflow","si_teradata","si_teratail","si_terraform","si_tesla","si_testin","si_testinglibrary","si_textpattern","si_theconversation","si_theirishtimes","si_themighty","si_themodelsresource","si_themoviedatabase","si_theregister","si_thesoundsresource","si_thespritersresource","si_thewashingtonpost","si_thingiverse","si_thinkpad","si_three_dot_js","si_threedotjs","si_threema","si_thumbtack","si_thunderbird","si_thymeleaf","si_ticketmaster","si_tidal","si_tide","si_tietoevry","si_tiktok","si_tile","si_timescale","si_tinder","si_tinyletter","si_tmobile","si_tmux","si_todoist","si_toggl","si_tokyometro","si_tomorrowland","si_topcoder","si_toptal","si_tor","si_torbrowser","si_torproject","si_toshiba","si_toyota","si_tp_link","si_tplink","si_tqdm","si_trainerroad","si_trakt","si_transferwise","si_transportforireland","si_transportforlondon","si_travisci","si_treehouse","si_trello","si_trendmicro","si_treyarch","si_triller","si_trino","si_trip_dot_com","si_tripadvisor","si_tripdotcom","si_trove","si_truenas","si_trulia","si_trustedshops","si_trustpilot","si_tryhackme","si_tryitonline","si_ts_node","si_tsnode","si_tui","si_tumblr","si_tunein","si_turbosquid","si_turkishairlines","si_tutanota","si_tvtime","si_twilio","si_twitch","si_twitter","si_twoo","si_typescript","si_typo3","si_uber","si_ubereats","si_ubiquiti","si_ubisoft","si_ublockorigin","si_ubuntu","si_udacity","si_udemy","si_ufc","si_uikit","si_ulule","si_umbraco","si_unacademy","si_undertale","si_unicode","si_unilever","si_unitedairlines","si_unity","si_unraid","si_unrealengine","si_unsplash","si_untangle","si_untappd","si_upcloud","si_uplabs","si_uploaded","si_ups","si_upwork","si_usps","si_v","si_v8","si_vaadin","si_vagrant","si_valve","si_vapor","si_vault","si_vauxhall","si_vbulletin","si_vectorlogozone","si_vectorworks","si_veeam","si_veepee","si_venmo","si_vercel","si_verdaccio","si_veritas","si_verizon","si_vfairs","si_viadeo","si_viber","si_vim","si_vimeo","si_vimeolivestream","si_vine","si_virb","si_virtualbox","si_virustotal","si_visa","si_visualstudio","si_visualstudiocode","si_vite","si_vivaldi","si_vivino","si_vk","si_vlcmediaplayer","si_vmware","si_vodafone","si_volkswagen","si_volvo","si_vonage","si_vox","si_vsco","si_vue_dot_js","si_vuedotjs","si_vuetify","si_vulkan","si_vultr","si_w3c","si_wagtail","si_wakatime","si_walkman","si_wallabag","si_wappalyzer","si_warnerbros","si_warnerbros_dot","si_wattpad","si_waze","si_wearos","si_weasyl","si_web3dotjs","si_webassembly","si_webauthn","si_webcomponents_dot_org","si_webcomponentsdotorg","si_webdriverio","si_webflow","si_webgl","si_webhint","si_weblate","si_webmin","si_webmoney","si_webpack","si_webrtc","si_webstorm","si_webtoon","si_wechat","si_weights_and_biases","si_weightsandbiases","si_wemo","si_wetransfer","si_whatsapp","si_wheniwork","si_whitesource","si_wii","si_wiiu","si_wikidata","si_wikimediacommons","si_wikipedia","si_wikiquote","si_wikivoyage","si_windows","si_windows95","si_windowsterminal","si_windowsxp","si_winmate","si_wipro","si_wire","si_wireguard","si_wireshark","si_wish","si_wistia","si_wix","si_wizzair","si_wolfram","si_wolframlanguage","si_wolframmathematica","si_woo","si_woocommerce","si_wordpress","si_workplace","si_worldhealthorganization","si_wpengine","si_wprocket","si_write_dot_as","si_writedotas","si_wwe","si_wwise","si_x_dot_org","si_x_pack","si_xamarin","si_xaml","si_xampp","si_xbox","si_xcode","si_xdadevelopers","si_xdotorg","si_xero","si_xfce","si_xiaomi","si_xilinx","si_xing","si_xmpp","si_xrp","si_xsplit","si_xstate","si_yahoo","si_yale","si_yamahacorporation","si_yamahamotorcorporation","si_yammer","si_yandex","si_yarn","si_ycombinator","si_yelp","si_yoast","si_yourtravel_dot_tv","si_yourtraveldottv","si_youtube","si_youtubegaming","si_youtubemusic","si_youtubestudio","si_youtubetv","si_z_wave","si_zalando","si_zalo","si_zapier","si_zdf","si_zelle","si_zend","si_zendesk","si_zendframework","si_zenn","si_zerodha","si_zeromq","si_zerply","si_zhihu","si_zig","si_zigbee","si_zillow","si_zingat","si_zoho","si_zoiper","si_zomato","si_zoom","si_zorin","si_zotero","si_zulip","si_zwave","wi_fluentbit","wi_mg","wi_mikrotik","wi_openresty","wi_vector"]}</script>
+    <script type="module">
+      import Vue from 'https://cdn.jsdelivr.net/npm/vue@2/dist/vue.esm.browser.min.js';
+
+      new Vue({
+        el: '#app',
+        methods: {
+          copyClipboard() {
+            const textToCopy = this.$refs.textToCopy.$el.querySelector('input');
+            textToCopy.select();
+            document.execCommand('copy');
+          },
+          badgeURL(label, message, color) {
+            return `https://img.shields.io/badge/${encodeURIComponent(
+              label,
+            )}-${encodeURIComponent(message)}-${encodeURIComponent(color)}`;
+          },
+          cdnURL(icon) {
+            return `https://cdn.jsdelivr.net/gh/aasaam/brand-icons/svg/${icon}.svg`;
+          },
+          iconTag(icon) {
+            return `<i class="abi">${icon}</i>`;
+          },
+          toClipboard(icon) {
+            navigator.clipboard.writeText(`<i class="abi">${icon}</i>`);
+          },
+        },
+        computed: {
+          icons: function () {
+            if (this.name) {
+              return this.data.icons.filter((i) => {
+                return new RegExp(
+                  this.name.replace(/[^a-z0-9]/g, ''),
+                  'i',
+                ).test(i);
+              });
+            }
+            return this.data.icons;
+          },
+        },
+        data() {
+          return {
+            size: 8,
+            color: '#4a4a4a',
+            name: '',
+            data: window.data,
+          };
+        },
+      });
+    </script>
+  </body>
+</html>
