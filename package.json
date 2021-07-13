@@ -15,7 +15,7 @@
   },
   "homepage": "https://aasaam.github.io/brand-icons/",
   "devDependencies": {
-    "filesize": "^6",
+    "filesize": "^7",
     "icon-font-buildr": "^1",
     "lodash": "^4",
     "simple-icons": "^5",
