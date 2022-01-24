@@ -1,8 +1,8 @@
-const { extendDefaultPlugins } = require('svgo');
-
 module.exports = {
   multipass: true,
-  plugins: extendDefaultPlugins([
+
+  plugins: [
+    'preset-default',
     {
       name: 'convertPathData',
       params: {
@@ -116,5 +116,5 @@ module.exports = {
     'removeScriptElement',
     'removeOffCanvasPaths',
     'reusePaths',
-  ]),
+  ],
 };

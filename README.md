@@ -15,12 +15,6 @@
     <a href="https://www.npmjs.com/package/@aasaam/brand-icons">
       <img alt="npm" src="https://img.shields.io/npm/v/@aasaam/brand-icons">
     </a>
-    <a href="https://david-dm.org/aasaam/brand-icons">
-      <img alt="David" src="https://img.shields.io/david/aasaam/brand-icons">
-    </a>
-    <a href="https://david-dm.org/aasaam/brand-icons?type=dev">
-      <img alt="David" src="https://img.shields.io/david/dev/aasaam/brand-icons">
-    </a>
     <a href="https://github.com/aasaam/brand-icons/blob/master/LICENSE.md">
       <img alt="License" src="https://img.shields.io/github/license/aasaam/brand-icons">
     </a>

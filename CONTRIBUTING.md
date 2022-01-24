@@ -138,7 +138,7 @@ File name for iranian brand start with `ir_` and `wi_`; For non-iranian brands. 
 1. Store icon with name in `ir_sample.svg` in `svg/`
 1. Run optimization via `npm run svgo svg/ir_sample.svg`
 1. Run lint via `npm run lint:svg svg/ir_sample.svg`
-1. Fix buffer issue and increase it `sax.MAX_BUFFER_LENGTH = ...` to `sax.MAX_BUFFER_LENGTH = 512 * 1024` in `node_modules/sax/lib/sax.js`
+1. Fix buffer issue and increase it `sax.MAX_BUFFER_LENGTH = ...` to `sax.MAX_BUFFER_LENGTH = 2048 * 1024` in `node_modules/sax/lib/sax.js`
 1. Build fonts `npm run build:fonts`
 1. Build website `npm run build:docs`
 
