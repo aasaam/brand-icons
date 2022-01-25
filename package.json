@@ -14,14 +14,6 @@
     "url": "git+https://github.com/aasaam/brand-icons.git"
   },
   "homepage": "https://aasaam.github.io/brand-icons/",
-  "devDependencies": {
-    "filesize": "^8",
-    "icon-font-buildr": "^1",
-    "lodash": "^4",
-    "simple-icons": "^6",
-    "svglint": "^2",
-    "svgo": "^2"
-  },
   "scripts": {
     "lint:names": "./scripts/lint-names.js",
     "lint:all-svg": "svglint svg/*.svg",
@@ -37,5 +29,13 @@
       "email": "m@mhf.ir"
     }
   ],
-  "license": "CC0-1.0"
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "filesize": "^8.0.7",
+    "icon-font-buildr": "^1.4.2",
+    "lodash": "^4.17.21",
+    "simple-icons": "^6.7.0",
+    "svglint": "^2.1.0",
+    "svgo": "^2.8.0"
+  }
 }
